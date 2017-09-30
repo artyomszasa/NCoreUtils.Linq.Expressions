@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <TargetFramework>netstandard1.5</TargetFramework>
+    <!-- NuGet -->
+    <PackageId>NCoreUtils.Linq.Expressions</PackageId>
+    <Title>NCoreUtils.Linq.Expressions</Title>
+    <Authors>Artyom Antyipin</Authors>
+    <Description>Expression tree related .NET utilities.</Description>
+    <Copyright>Artyom Antyipin</Copyright>
+    <RepositoryUrl>https://github.com/artyomszasa/NCoreUtils.Linq.Expressions.git</RepositoryUrl>
+    <!-- Assembly Info -->
+    <Product>NCoreUtils</Product>
+    <AssemblyName>NCoreUtils.Linq.Expressions</AssemblyName>
+    <AssemblyTitle>$(AssemblyName)</AssemblyTitle>
+    <!-- Compilation -->
+    <OutputType>Library</OutputType>
+    <DebugType>portable</DebugType>
+    <!--<GenerateDocumentationFile>true</GenerateDocumentationFile>-->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Collections.Immutable" Version="1.4.0" />
+  </ItemGroup>
+</Project>
